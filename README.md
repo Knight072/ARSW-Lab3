@@ -39,22 +39,6 @@ El proyecto sigue una arquitectura básica de aplicaciones web utilizando Java, 
    - Configura el entorno de desarrollo y despliega la aplicación utilizando Maven o mediante un archivo JAR ejecutable.
 
 4. **Acceso**:
-   - Accede a la aplicación desde un navegador web utilizando la IP pública o el nombre de dominio de la instancia EC2 seguido de `/calculadora` (por ejemplo, `http://<ip_publica_ec2>/calculadora`).
+   - Accede a la aplicación desde un navegador web utilizando la IP pública o el nombre de dominio de la instancia EC2 seguido de `/calculadora` (por ejemplo, `http://ec2-3-94-130-211.compute-1.amazonaws.com:8080/calculadora`).
 
-### Contribución
 
-Si deseas contribuir al proyecto:
-
-- Realiza un fork y clona el repositorio.
-- Crea una rama (`git checkout -b feature/nueva-funcionalidad`).
-- Realiza tus cambios y haz commit (`git commit -am 'Agrega nueva funcionalidad'`).
-- Haz push a la rama (`git push origin feature/nueva-funcionalidad`).
-- Crea un nuevo Pull Request.
-
-### Licencia
-
-Este proyecto está licenciado bajo la MIT License. Consulta el archivo LICENSE para más detalles.
-
----
-
-Este README proporciona una visión general del proyecto de calculadora web utilizando Spring MVC y Thymeleaf, desplegada en AWS EC2, incluyendo detalles sobre la arquitectura, configuración, uso, contribución y licencia.
