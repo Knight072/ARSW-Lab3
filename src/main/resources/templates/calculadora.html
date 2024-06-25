@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+</head>
+<body>
+    <form>
+        <p th:text="|El resultado es: ${resultado}!|" />
+        <label for="primerValor">Primer Numero</label>
+        <br>
+        <input type="text" id="primerValor" name="primerValor">
+        <br>
+        <label for="segundoValor">Segundo Numero</label>
+        <br>
+        <input type="text" id="segundoValor" name="segundoValor">
+        <br>
+        <input type="radio" id="+" name="operacion" value="suma">
+        <label for="+">Suma</label><br>
+        <input type="radio" id="-" name="operacion" value="resta">
+        <label for="-">Resta</label><br>
+        <input type="radio" id="/" name="operacion" value="division">
+        <label for="/">Division</label><br>
+        <input type="radio" id="*" name="operacion" value="multiplicacion">
+        <label for="*">Multiplicacion</label>
+        <br>
+        <input type="submit"  name="calcular">
+    </form>
+</body>
+</html>
